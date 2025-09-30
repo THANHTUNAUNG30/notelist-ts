@@ -56,6 +56,7 @@ const Notelist = () => {
     }
   }
 
+
   const handleModelChange = (title : string, id : string) => {
     setEditMode(true);
     setMsg(title);
@@ -75,9 +76,9 @@ const Notelist = () => {
   return (
     <>
       <div className="max-w-xl mx-auto mt-14 p-6 bg-white rounded-2xl shadow-xl">
-        <h2 className="text-3xl font-bold flex items-center gap-3 text-gray-800 mb-6 border-b pb-2 font-mono">
+        <h1 className="text-3xl font-bold flex items-center gap-3 text-gray-800 mb-6 border-b pb-2 font-mono">
           <FaRegStickyNote className="text-indigo-500 text-2xl" /> Note List
-        </h2>
+        </h1>
 
         <form className="flex gap-3 mb-6" onSubmit={submitHandler}>
           <input
