@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2",
+    "ts-node": "^10.9.2"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
