@@ -3,7 +3,7 @@ import type { Note } from "../types/notes";
 const API_URL =
   import.meta.env.VITE_MODE === "development"
     ? import.meta.env.VITE_LOCAL_URL
-    : import.meta.env.VITE_URL;
+    : import.meta.env.VITE_API_URL;
 console.log("api url: ", API_URL);
 
 export const getNotes = async (): Promise<Note[]> => {
